@@ -31,7 +31,9 @@ With this deployment option, the CloudFormation template will import this GitHub
 
 Once you are logged into your AWS Account and you have deployed the CloudFormation template, you will need to find the Amazon SageMaker Notebook under SageMaker -> Notebooks -> Notebook Instances. Locate the Notebook that was deployed through CloudFormation and click on *Open Jupyter*. Once inside the notebook, navigate to:
 
-**amazon-personalize-samples/next_steps/generative_ai/personalized_recommender_agent/**
+```
+amazon-personalize-samples/next_steps/generative_ai/personalized_recommender_agent/
+```
 
 #### Notebook 1: Data Preparation and Recipe Recommendations
 In the first notebook, we will focus on preparing the data, training and deploying the [Amazon Personalize](https://aws.amazon.com/personalize/) recommender and custom solution. Throughout this notebook, we will create a [Recommended for you](https://docs.aws.amazon.com/personalize/latest/dg/ECOMMERCE-use-cases.html#recommended-for-you-use-case) recommender and a Similar items solution, set up filters, and create an event tracker that will help us interact with Personalize in real-time.
